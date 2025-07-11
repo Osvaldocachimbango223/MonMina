@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Momentos - Mon Mina</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #2e2d2d;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #1e1e1e;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .momentos-container {
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .momentos-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .momento {
+      background-color: #3a3a3a;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .momento img,
+    .momento video {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .momento p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+      footer{
+        background-color: #1e1e1e;
+        padding: 20px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="momento.html">Momentos</a></li>
+      <li><a href="musicas.html">Playlist</a></li>
+    </ul>
+  </nav>
+
+  <div class="momentos-container">
+    <h1>Momentos</h1>
+    <div class="galeria">
+
+      <div class="momento">
+        <img src="img/cunene.jpg" alt="Show ao vivo">
+        <p>Show no Cunene – Cunene, 2023</p>
+      </div>
+
+      <div class="momento">
+        <video src="videos/ensaio1.mp4" controls></video>
+        <p>Ensaio antes da estreia</p>
+      </div>
+
+      <div class="momento">
+        <img src="img/bastidores.jpg" alt="Bastidores">
+        <p>Bastidores com a equipa de produção</p>
+      </div>
+
+      <div class="momento">
+        <img src="img/publico.jpg" alt="Público vibrando">
+        <p>Público vibrando na primeira fila</p>
+      </div>
+
+    </div>
+  </div>
+<footer>
+   <p> &copy; 2025-Mon Mina Todos os direitos Reservados</p>
+</footer>
+</body>
+</html>
+

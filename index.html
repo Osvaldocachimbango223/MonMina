@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Mina</title>
+
+</head>
+
+<style>
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #2e2d2d;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #1e1e1e;
+      padding: 10px;
+    }
+
+    nav ul {
+      
+      display: flex;
+      gap: 20px;
+      
+    }
+
+    nav li {
+      display: inline-block;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .conteudo {
+      display: flex;
+      
+      align-items: center;
+      padding: 20px;
+    }
+
+    .foto {
+      flex: 40%;
+    }
+
+    .foto img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .musica {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background-color: #3a3a3a;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .item h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .item p {
+      font-size: 12px;
+    }
+
+    footer{
+        background-color: #1e1e1e;
+        padding: 20px;
+        text-align: center;
+    }
+  
+</style>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="momento.html">Momentos</a></li>
+      <li><a href="musicas.html">Playlist</a></li>
+    </ul>
+  </nav>
+
+  <header class="conteudo">
+    <div class="foto">
+      <img src="img/1752179269491.jpg" alt="Capa do álbum">
+    </div>
+    <div>
+      <h1>MON MINA</h1>
+      <h2>KAPITÃO</h2>
+     
+    </div>
+  </header>
+
+  <div class="musica">
+    <div class="item">
+      <h2>MO SANGUE</h2>
+      <p>Album: X</p>
+      <p>2025</p>
+    </div>
+    <div class="item">
+      <h2>Progresso</h2>
+      <p>Album:Mon Mina</p>
+      <p>2022</p>
+    </div>
+    <div class="item">
+      <h2>MO SANGUE</h2>
+      <p>Album: X</p>
+      <p>2025</p>
+    </div>
+  </div>
+<footer>
+   <p> &copy; 2025-Mon Mina Todos os direitos Reservados</p>
+</footer>
+</body>
+</html>
